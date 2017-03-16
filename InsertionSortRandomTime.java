@@ -9,7 +9,7 @@ public class InsertionSortRandomTime {
     public void check()
     {
         int arrSize = 1000;
-        for(int k = 0;k < 20; k++) {
+        for(int k = 0;k < 2; k++) {
             long startTime = System.currentTimeMillis();
             int count = 0, v, j;
 

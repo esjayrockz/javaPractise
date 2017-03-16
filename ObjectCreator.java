@@ -21,9 +21,11 @@ public class ObjectCreator {
         //sp.checkPermutation();
         //StringPermutationsTwo sp2 = new StringPermutationsTwo();
         //sp2.checkPermutation();
-        InsertionSort is = new InsertionSort();
-        is.sort();
-        System.out.println("Finishing...");
+        //InsertionSort is = new InsertionSort();
+        //is.sort();
+        //System.out.println("Finishing...");
+        InsertionSortRandomTime isrt = new InsertionSortRandomTime();
+        isrt.check();
     }
 
 }
