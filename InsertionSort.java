@@ -23,6 +23,7 @@ public class InsertionSort {
         {
             temp = a[i];
             int j=i-1;
+            //System.out.println(a[j]);
             while(j>=0 && a[j]>temp)
             {
                 a[j+1]= a[j];

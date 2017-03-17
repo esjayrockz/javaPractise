@@ -23,9 +23,20 @@ public class ObjectCreator {
         //sp2.checkPermutation();
         //InsertionSort is = new InsertionSort();
         //is.sort();
+        //InsertionSortRandom isr = new InsertionSortRandom();
+        //isr.check();
         //System.out.println("Finishing...");
-        InsertionSortRandomTime isrt = new InsertionSortRandomTime();
-        isrt.check();
+        //InsertionSortRandomTime isrt = new InsertionSortRandomTime();
+        //isrt.check();
+        /* SolutionsAlgoAssignment2 s = new SolutionsAlgoAssignment2();
+         s.checkFirstEquation();
+         s.checkSecondEquation();
+         s.checkThirdEquation();
+         s.checkFourthEquation();
+         s.checkFifthEquation();
+         s.checkSixthEquation();
+         */
+
     }
 
 }
