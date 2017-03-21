@@ -16,10 +16,9 @@ public class Start {
         String say = sc.nextLine();
         System.out.println(say);
 
-        int age = 7, age2 = 18;
-        if(age==7 && age2==18)
-            System.out.println("Age difference is ok");
-        System.out.print(!false);
+        int age = 5;
+        int a = (age>4?1:6);
+        System.out.println(a);
 
     }
 }

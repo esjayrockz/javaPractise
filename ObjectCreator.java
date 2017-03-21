@@ -26,8 +26,10 @@ public class ObjectCreator {
         //InsertionSortRandom isr = new InsertionSortRandom();
         //isr.check();
         //System.out.println("Finishing...");
-        //InsertionSortRandomTime isrt = new InsertionSortRandomTime();
-        //isrt.check();
+        InsertionSortRandomTime isrt = new InsertionSortRandomTime();
+        isrt.check();
+       // InsertionSortRandomTime2 isrt2 = new InsertionSortRandomTime2();
+       // isrt2.check();
         /* SolutionsAlgoAssignment2 s = new SolutionsAlgoAssignment2();
          s.checkFirstEquation();
          s.checkSecondEquation();

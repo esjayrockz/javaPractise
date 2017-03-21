@@ -3,14 +3,15 @@ package com.esjay;
 import java.util.Scanner;
 
 /**
- * Created by Suvajit on 15/03/17.
+ * Created by Suvajit on 19/03/17.
  */
-public class InsertionSortRandomTime {
+public class InsertionSortRandomTime2 {
+
     public void check()
     {
-        int arrSize = 1000;long startTime;
-        for(int k = 0;k < 20; k++) {
+        int arrSize = 9500;long startTime;
 
+            startTime = System.currentTimeMillis();
             int  v, j;
 
             Scanner scan = new Scanner(System.in);
@@ -18,9 +19,7 @@ public class InsertionSortRandomTime {
             int A[] = new int[n];
 
             for (int x = 0; x <= n - 1; x++)
-                A[x] = (int)(Math.random() * 100000);
-
-            startTime = System.currentTimeMillis();
+                A[x] = (int)(Math.random() * 100);
 
             for (int i = 1; i <= n - 1; i++) {
 
@@ -37,9 +36,9 @@ public class InsertionSortRandomTime {
 
             }
 
-            System.out.println("Size = "+ arrSize + ", Time = " + (System.currentTimeMillis() - startTime));
-            System.out.println("fINE");
-            arrSize = arrSize + 500;
-        }
+            System.out.println(arrSize + " " + (System.currentTimeMillis() - startTime));
+            //arrSize = arrSize + 500;
+
     }
+
 }
